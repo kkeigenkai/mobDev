@@ -3,4 +3,4 @@
 Код в папке lab_1
 
 Пример работы:
-![](exapmle.gif)
+![](example.gif)
