@@ -23,23 +23,9 @@ struct StartView: View {
             Button(action: {
                 self.game.update_game_state()
             }) {
-                HStack {
-                    Text("Кинуть кубик")
-                        .fontWeight(.regular)
-                        .font(.title)
-                }
-                .padding(.horizontal, 17)
-                .padding(.vertical, 9)
-                .foregroundColor(.white)
-                .background(Color.blue)
-                .cornerRadius(40)
+                GameButton(text: "Кинуть кубик")
             }
         }
-    }
-}
-
-struct StartView_Previews: PreviewProvider {
-    static var previews: some View {
-        StartView().environmentObject(Game())
+        .padding()
     }
 }

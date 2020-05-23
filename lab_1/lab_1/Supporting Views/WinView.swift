@@ -20,24 +20,9 @@ struct WinView: View {
             Button(action: {
                 self.game.restart()
             }) {
-                HStack {
-                    Text("Начать заново")
-                        .fontWeight(.regular)
-                        .font(.title)
-                }
-                .padding(.horizontal, 17)
-                .padding(.vertical, 9)
-                .foregroundColor(.white)
-                .background(Color.blue)
-                .cornerRadius(40)
+                GameButton(text: "Начать заново")
             }
         }
         .padding()
-    }
-}
-
-struct WinView_Previews: PreviewProvider {
-    static var previews: some View {
-        WinView().environmentObject(Game())
     }
 }

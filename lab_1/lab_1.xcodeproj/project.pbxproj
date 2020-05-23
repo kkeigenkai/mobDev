@@ -19,6 +19,8 @@
 		2506BDEB2471D5EC006E4C4E /* WinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2506BDEA2471D5EC006E4C4E /* WinView.swift */; };
 		2506BDED2471D610006E4C4E /* LoseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2506BDEC2471D610006E4C4E /* LoseView.swift */; };
 		2506BDEF2471D62C006E4C4E /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2506BDEE2471D62C006E4C4E /* DrawView.swift */; };
+		25D64FEA2473E7F0002E03DC /* Dice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D64FE92473E7F0002E03DC /* Dice.swift */; };
+		25D64FEC2473F066002E03DC /* GameButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D64FEB2473F066002E03DC /* GameButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		2506BDEA2471D5EC006E4C4E /* WinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinView.swift; sourceTree = "<group>"; };
 		2506BDEC2471D610006E4C4E /* LoseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoseView.swift; sourceTree = "<group>"; };
 		2506BDEE2471D62C006E4C4E /* DrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
+		25D64FE92473E7F0002E03DC /* Dice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice.swift; sourceTree = "<group>"; };
+		25D64FEB2473F066002E03DC /* GameButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 				2506BDEA2471D5EC006E4C4E /* WinView.swift */,
 				2506BDEC2471D610006E4C4E /* LoseView.swift */,
 				2506BDEE2471D62C006E4C4E /* DrawView.swift */,
+				25D64FE92473E7F0002E03DC /* Dice.swift */,
+				25D64FEB2473F066002E03DC /* GameButton.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -180,6 +186,8 @@
 				2506BDEF2471D62C006E4C4E /* DrawView.swift in Sources */,
 				2506BDE524708DD4006E4C4E /* StartView.swift in Sources */,
 				2506BDE724708FB8006E4C4E /* GameView.swift in Sources */,
+				25D64FEA2473E7F0002E03DC /* Dice.swift in Sources */,
+				25D64FEC2473F066002E03DC /* GameButton.swift in Sources */,
 				2506BDED2471D610006E4C4E /* LoseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

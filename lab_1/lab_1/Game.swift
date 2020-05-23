@@ -26,7 +26,6 @@ class Game: ObservableObject {
     var bot_move: [Int] = [0, 0]
 
     @objc func update_game_state() {
-//        game_state = .game
         if game_state != .start {
             if player_score >= 100 || bot_score >= 100 {
                 if player_score >= 100 && bot_score >= 100 {
@@ -42,10 +41,6 @@ class Game: ObservableObject {
         }
         
     }
-    
-//    @objc func game_state() {
-//        game_state = .game
-//    }
     
     @objc func make_move() {
         repeat {
